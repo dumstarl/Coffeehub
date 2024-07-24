@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="hot.css">
+</head>
+<body>
+    <div class="mero-image">
+            <header class="header">
+                <a href="#" class="logo">Coffee Hub</a>
+        
+                <input type="checkbox" id="check"> 
+                <label for="check" class="icons">
+                    <i class='bx bx-menu' id="menu-icon"></i>
+                    <i class='bx bx-x' id="close-icon"></i>
+                </label>
+        
+                <nav class="navbar" id="navbar-ere">
+                    <a href="index.html" style="--i:0;">Home</a>
+                    <a href="history.html" style="--i:1;">History</a>
+                    <a href="machine.html" style="--i:2;">Machine</a>
+                    <a href="blog.html" style="--i:3;">Blog</a>
+                </nav>
+
+            </header>
+            
+        </div>
+           
+<section class="main-container">
+    <div class="container">
+        <div class="title">Hot Brews</div>
+        <div class="listProduct"></div>
+    </div>
+
+</section>
+
+
+
+<footer>
+    <div class="foot-container">
+        <div class="footer-section">
+            <h2>About Us</h2>
+            <p>At <span class="brand-name">[Your Coffee Brand]</span>, we believe that coffee is more than just a beverage—it's an experience. Join us as we share our passion for coffee and invite you to savor the difference in every sip.</p>
+        </div>
+        <div class="footer-section">
+            <h2>Contact Us</h2>
+            <p>Email: info@yourcoffeebrand.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 123 Coffee Lane, Coffee City, CO 12345</p>
+        </div>
+        <div class="footer-section">
+            <h2>Follow Us</h2>
+            <div class="social-icons">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 [Your Coffee Brand]. All rights reserved.</p>
+    </div>
+</footer>
+
+    <script>
+        let products = null;
+        fetch('products.json')
+            .then(response => response.json())
+            .then(data => {
+                products = data;
+                addDataToHTML();
+        });
+
+        function addDataToHTML(){
+            let listProductHTML = document.querySelector('.listProduct');
+
+            if(products != null) {
+                products.forEach(product => {
+                    let newProduct = document.createElement('a');
+                    newProduct.href = '/detail.html?id=' + product.id;
+                    newProduct.classList.add('item');
+                    newProduct.innerHTML = 
+                    `<img src="${product.image}" alt="">
+                    <h2>${product.name}</h2>`;
+                    listProductHTML.appendChild(newProduct);
+                });
+            }
+        }
+    </script>
+</body>
+</html>

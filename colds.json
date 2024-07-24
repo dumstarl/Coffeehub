@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "name": "Iced Coffee",
+        "image": "image/IcedCoffee.jpg",
+        "Ideal Shot": ["240ml brewed coffee (cooled)", "Ice cubes"],
+        "Instruction": ["Brew a strong cup of coffee and let it cool to room temperature.", "Fill a glass with ice cubes.", "Pour the cooled coffee over the ice.", "Optionally, add milk, cream, or sweetener to taste.", "Serve immediately."]
+    },
+    {
+        "id": 2,
+        "name": "Cold Brew Coffee",
+        "image": "image/ColdBrewCoffee.jpg",
+        "Ideal Shot": ["1 cup coarsely ground coffee", "4 cups cold water"],
+        "Instruction": ["Combine the coffee grounds and cold water in a jar or pitcher.", "Stir to mix and let steep in the refrigerator for 12-24 hours.", "Strain the coffee through a coffee filter or fine mesh strainer.", "Serve over ice and dilute with water or milk if desired.", "Serve immediately."]
+    },
+    {
+        "id": 3,
+        "name": "Iced Americano",
+        "image": "image/IcedAmericano.jpg",
+        "Ideal Shot": ["60ml of espresso (double shot)", "180ml cold water", "Ice cubes"],
+        "Instruction": ["Brew a double shot of espresso.", "Fill a glass with ice cubes.", "Pour the espresso over the ice.", "Add cold water to taste.", "Serve immediately."]
+    },
+    {
+        "id": 4,
+        "name": "Iced Latte",
+        "image": "image/IcedLatte.jpg",
+        "Ideal Shot": ["60ml espresso (single shot)", "180ml cold milk", "Ice cubes"],
+        "Instruction": ["Brew a single shot of espresso.", "Fill a glass with ice cubes.", "Pour the espresso over the ice.", "Add cold milk and stir.", "Serve immediately."]
+    },
+    {
+        "id": 5,
+        "name": "Iced Mocha",
+        "image": "image/IcedMocha.jpg",
+        "Ideal Shot": ["60ml espresso (single shot)", "30ml chocolate syrup", "180ml cold milk", "Ice cubes"],
+        "Instruction": ["Brew a single shot of espresso.", "Mix the chocolate syrup with the espresso.", "Fill a glass with ice cubes.", "Pour the chocolate-espresso mix over the ice.", "Add cold milk and stir.", "Serve immediately."]
+    },
+    {
+        "id": 6,
+        "name": "Iced Cappuccino",
+        "image": "image/IcedCappuccino.jpg",
+        "Ideal Shot": ["60ml espresso (single shot)", "90ml cold milk", "90ml milk foam", "Ice cubes"],
+        "Instruction": ["Brew a single shot of espresso.", "Fill a glass with ice cubes.", "Pour the espresso over the ice.", "Add cold milk.", "Top with milk foam.", "Serve immediately."]
+    },
+    {
+        "id": 7,
+        "name": "Frappuccino",
+        "image": "image/Frappuccino.jpg",
+        "Ideal Shot": ["1 cup brewed coffee (cooled)", "1 cup ice", "1/2 cup milk", "2 tablespoons flavored syrup (e.g., caramel, mocha)"],
+        "Instruction": ["Blend the coffee, ice, milk, and flavored syrup until smooth.", "Pour into a glass.", "Top with whipped cream if desired.", "Serve immediately."]
+    },
+    {
+        "id": 8,
+        "name": "Affogato",
+        "image": "image/Affogato.jpg",
+        "Ideal Shot": ["60ml espresso (single shot)", "1 scoop vanilla ice cream"],
+        "Instruction": ["Brew a single shot of espresso.", "Place one scoop of vanilla ice cream in a serving glass.", "Pour the hot espresso shot over the ice cream.", "Serve immediately."]
+    },
+    {
+        "id": 9,
+        "name": "Vietnamese Iced Coffee (Cà Phê Sữa Đá)",
+        "image": "image/VietnameseIcedCoffee.jpg",
+        "Ideal Shot": ["240ml strong brewed coffee", "2 tablespoons sweetened condensed milk", "Ice cubes"],
+        "Instruction": ["Brew a strong cup of coffee.", "Add sweetened condensed milk to the coffee and mix.", "Fill a glass with ice cubes.", "Pour the coffee mixture over the ice.", "Serve immediately."]
+    },
+    {
+        "id": 10,
+        "name": "Thai Iced Coffee (Oliang)",
+        "image": "image/ThaiIcedCoffee.jpg",
+        "Ideal Shot": ["240ml brewed Thai coffee", "2 tablespoons sweetened condensed milk", "Ice cubes"],
+        "Instruction": ["Brew a strong cup of Thai coffee.", "Add sweetened condensed milk to the coffee and mix.", "Fill a glass with ice cubes.", "Pour the coffee mixture over the ice.", "Serve immediately."]
+    },
+    {
+        "id": 11,
+        "name": "Cold Brew with Nitro",
+        "image": "image/ColdBrewWithNitro.jpg",
+        "Ideal Shot": ["240ml cold brew coffee", "Nitrogen infusion"],
+        "Instruction": ["Prepare cold brew coffee.", "Infuse the cold brew with nitrogen using a nitro coffee dispenser.", "Serve directly from the dispenser.", "Serve immediately."]
+    },
+    {
+        "id": 12,
+        "name": "Iced Café Con Leche",
+        "image": "image/IcedCafeConLeche.jpg",
+        "Ideal Shot": ["60ml espresso (single shot)", "180ml cold milk", "Ice cubes"],
+        "Instruction": ["Brew a single shot of espresso.", "Fill a glass with ice cubes.", "Pour the espresso over the ice.", "Add cold milk and stir.", "Serve immediately."]
+    },
+    {
+        "id": 13,
+        "name": "Iced Coffee Float",
+        "image": "image/IcedCoffeeFloat.jpg",
+        "Ideal Shot": ["240ml brewed coffee (cooled)", "1 scoop vanilla ice cream", "Ice cubes"],
+        "Instruction": ["Brew and cool a cup of coffee.", "Fill a glass with ice cubes.", "Pour the cooled coffee over the ice.", "Top with a scoop of vanilla ice cream.", "Serve immediately."]
+    },
+    {
+        "id": 14,
+        "name": "Iced Espresso Affogato",
+        "image": "image/IcedEspressoAffogato.jpg",
+        "Ideal Shot": ["60ml espresso (single shot)", "1 scoop vanilla ice cream"],
+        "Instruction": ["Brew a single shot of espresso.", "Place one scoop of vanilla ice cream in a serving glass.", "Chill the espresso if desired, then pour over the ice cream.", "Serve immediately."]
+    },
+    {
+        "id": 15,
+        "name": "Iced Mocha Frappe",
+        "image": "image/IcedMochaFrappe.jpg",
+        "Ideal Shot": ["1 cup brewed coffee (cooled)", "1 cup ice", "1/2 cup milk", "2 tablespoons chocolate syrup"],
+        "Instruction": ["Blend the coffee, ice, milk, and chocolate syrup until smooth.", "Pour into a glass.", "Top with whipped cream if desired.", "Serve immediately."]
+    },
+    {
+        "id": 16,
+        "name": "Iced Maple Coffee",
+        "image": "image/IcedMapleCoffee.jpg",
+        "Ideal Shot": ["240ml brewed coffee (cooled)", "2 tablespoons maple syrup", "Ice cubes"],
+        "Instruction": ["Brew and cool a cup of coffee.", "Fill a glass with ice cubes.", "Pour the cooled coffee over the ice.", "Add maple syrup and stir.", "Serve immediately."]
+    },
+    {
+        "id": 17,
+        "name": "Iced Spice Coffee",
+        "image": "image/IcedSpiceCoffee.jpg",
+        "Ideal Shot": ["240ml cold brew coffee", "Pinch of spices (e.g., cinnamon, nutmeg)", "Ice cubes"],
+        "Instruction": ["Brew cold brew coffee.", "Add a pinch of your chosen spices.", "Fill a glass with ice cubes.", "Pour the spiced coffee over the ice.", "Serve immediately."]
+    },
+    {
+        "id": 18,
+        "name": "Iced Matcha Coffee",
+        "image": "image/IcedMatchaCoffee.jpg",
+        "Ideal Shot": ["240ml cold brew coffee", "1 teaspoon matcha powder", "Ice cubes"],
+        "Instruction": ["Prepare cold brew coffee.", "Mix matcha powder with a small amount of hot water to form a paste.", "Combine the matcha paste with the cold brew coffee.", "Fill a glass with ice cubes.", "Pour the matcha coffee mixture over the ice.", "Serve immediately."]
+    },
+    {
+        "id": 19,
+        "name": "Iced Pumpkin Spice Coffee",
+        "image": "image/IcedPumpkinSpiceCoffee.jpg",
+        "Ideal Shot": ["240ml brewed coffee (cooled)", "2 tablespoons pumpkin spice syrup", "Ice cubes"],
+        "Instruction": ["Brew and cool a cup of coffee.", "Fill a glass with ice cubes.", "Pour the cooled coffee over the ice.", "Add pumpkin spice syrup and stir.", "Serve immediately."]
+    },
+    {
+        "id": 20,
+        "name": "Cold Brew Coffee Lemonade",
+        "image": "image/ColdBrewCoffeeLemonade.jpg",
+        "Ideal Shot": ["240ml cold brew coffee", "60ml lemonade", "Ice cubes"],
+        "Instruction": ["Prepare cold brew coffee.", "Mix with lemonade.", "Fill a glass with ice cubes.", "Pour the coffee-lemonade mixture over the ice.", "Serve immediately."]
+    }
+]

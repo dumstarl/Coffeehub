@@ -1,0 +1,524 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Lemonade",
+        "image": "image/ClassicLemonade.jpg",
+        "Ideal Shot": ["1 cup freshly squeezed lemon juice", "1 cup sugar", "4 cups cold water", "Ice cubes"],
+        "Instruction": [
+            "Combine the lemon juice and sugar in a pitcher.",
+            "Stir until the sugar is completely dissolved.",
+            "Add cold water and mix well.",
+            "Fill glasses with ice cubes and pour lemonade over.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Strawberry Lemonade",
+        "image": "image/StrawberryLemonade.jpg",
+        "Ideal Shot": ["1 cup fresh strawberries", "1 cup freshly squeezed lemon juice", "1 cup sugar", "4 cups cold water", "Ice cubes"],
+        "Instruction": [
+            "Blend the strawberries until smooth.",
+            "Combine the strawberry puree, lemon juice, and sugar in a pitcher.",
+            "Stir until the sugar is completely dissolved.",
+            "Add cold water and mix well.",
+            "Fill glasses with ice cubes and pour lemonade over.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Mint Lemonade",
+        "image": "image/MintLemonade.jpg",
+        "Ideal Shot": ["1 cup freshly squeezed lemon juice", "1 cup sugar", "4 cups cold water", "A handful of fresh mint leaves", "Ice cubes"],
+        "Instruction": [
+            "Combine the lemon juice and sugar in a pitcher.",
+            "Stir until the sugar is completely dissolved.",
+            "Add cold water and mix well.",
+            "Muddle mint leaves and add them to the pitcher.",
+            "Fill glasses with ice cubes and pour lemonade over.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Iced Green Tea",
+        "image": "image/IcedGreenTea.jpg",
+        "Ideal Shot": ["2 green tea bags", "2 cups boiling water", "2 cups cold water", "Ice cubes", "Sweetener (optional)"],
+        "Instruction": [
+            "Steep the green tea bags in boiling water for 3-4 minutes.",
+            "Remove tea bags and let the tea cool.",
+            "Add cold water and mix.",
+            "Fill glasses with ice cubes and pour iced tea over.",
+            "Add sweetener if desired and serve immediately."
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Iced Black Tea",
+        "image": "image/IcedBlackTea.jpg",
+        "Ideal Shot": ["2 black tea bags", "2 cups boiling water", "2 cups cold water", "Ice cubes", "Sweetener (optional)"],
+        "Instruction": [
+            "Steep the black tea bags in boiling water for 4-5 minutes.",
+            "Remove tea bags and let the tea cool.",
+            "Add cold water and mix.",
+            "Fill glasses with ice cubes and pour iced tea over.",
+            "Add sweetener if desired and serve immediately."
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Iced Hibiscus Tea",
+        "image": "image/IcedHibiscusTea.jpg",
+        "Ideal Shot": ["2 hibiscus tea bags", "2 cups boiling water", "2 cups cold water", "Ice cubes", "Sweetener (optional)"],
+        "Instruction": [
+            "Steep the hibiscus tea bags in boiling water for 5 minutes.",
+            "Remove tea bags and let the tea cool.",
+            "Add cold water and mix.",
+            "Fill glasses with ice cubes and pour iced tea over.",
+            "Add sweetener if desired and serve immediately."
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Bubble Tea (Classic Milk Tea)",
+        "image": "image/BubbleTea.jpg",
+        "Ideal Shot": ["1 cup black tea", "1/2 cup milk", "1/4 cup tapioca pearls", "Sweetener to taste", "Ice cubes"],
+        "Instruction": [
+            "Cook tapioca pearls according to package instructions and let them cool.",
+            "Brew black tea and let it cool.",
+            "Mix tea with milk and sweetener.",
+            "Fill a glass with ice cubes and add cooked tapioca pearls.",
+            "Pour the tea mixture over the pearls.",
+            "Serve with a wide straw."
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Lemon Mint Iced Tea",
+        "image": "image/LemonMintIcedTea.jpg",
+        "Ideal Shot": ["2 black tea bags", "2 cups boiling water", "1/2 cup lemon juice", "A handful of fresh mint leaves", "2 cups cold water", "Ice cubes"],
+        "Instruction": [
+            "Steep the black tea bags in boiling water for 4-5 minutes.",
+            "Remove tea bags and let the tea cool.",
+            "Add lemon juice and mix well.",
+            "Add cold water and fresh mint leaves.",
+            "Fill glasses with ice cubes and pour tea over.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Peach Iced Tea",
+        "image": "image/PeachIcedTea.jpg",
+        "Ideal Shot": ["2 black tea bags", "2 cups boiling water", "1/2 cup peach nectar", "2 cups cold water", "Ice cubes"],
+        "Instruction": [
+            "Steep the black tea bags in boiling water for 4-5 minutes.",
+            "Remove tea bags and let the tea cool.",
+            "Add peach nectar and mix well.",
+            "Add cold water and mix.",
+            "Fill glasses with ice cubes and pour tea over.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Matcha Lemonade",
+        "image": "image/MatchaLemonade.jpg",
+        "Ideal Shot": ["1 teaspoon matcha powder", "1 cup freshly squeezed lemon juice", "1 cup sugar", "3 cups cold water", "Ice cubes"],
+        "Instruction": [
+            "Mix matcha powder with a small amount of water to form a paste.",
+            "Combine the lemon juice and sugar in a pitcher.",
+            "Stir until the sugar is completely dissolved.",
+            "Add cold water and mix well.",
+            "Add the matcha paste and stir.",
+            "Fill glasses with ice cubes and pour lemonade over.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Tamarind Lemonade",
+        "image": "image/TamarindLemonade.jpg",
+        "Ideal Shot": ["1/2 cup tamarind concentrate", "1 cup freshly squeezed lemon juice", "1 cup sugar", "3 cups cold water", "Ice cubes"],
+        "Instruction": [
+            "Combine tamarind concentrate, lemon juice, and sugar in a pitcher.",
+            "Stir until the sugar is completely dissolved.",
+            "Add cold water and mix well.",
+            "Fill glasses with ice cubes and pour lemonade over.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Mango Iced Tea",
+        "image": "image/MangoIcedTea.jpg",
+        "Ideal Shot": ["2 black tea bags", "2 cups boiling water", "1/2 cup mango juice", "2 cups cold water", "Ice cubes"],
+        "Instruction": [
+            "Steep the black tea bags in boiling water for 4-5 minutes.",
+            "Remove tea bags and let the tea cool.",
+            "Add mango juice and mix well.",
+            "Add cold water and mix.",
+            "Fill glasses with ice cubes and pour tea over.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Iced Apple Tea",
+        "image": "image/IcedAppleTea.jpg",
+        "Ideal Shot": ["2 black tea bags", "2 cups boiling water", "1/2 cup apple juice", "2 cups cold water", "Ice cubes"],
+        "Instruction": [
+            "Steep the black tea bags in boiling water for 4-5 minutes.",
+            "Remove tea bags and let the tea cool.",
+            "Add apple juice and mix well.",
+            "Add cold water and mix.",
+            "Fill glasses with ice cubes and pour tea over.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Iced Lavender Lemonade",
+        "image": "image/IcedLavenderLemonade.jpg",
+        "Ideal Shot": ["1 cup freshly squeezed lemon juice", "1 cup sugar", "1 tablespoon dried lavender flowers", "3 cups cold water", "Ice cubes"],
+        "Instruction": [
+            "Combine lemon juice and sugar in a pitcher.",
+            "In a small pot, bring 1 cup of water to a boil and add dried lavender flowers.",
+            "Steep for 5 minutes, then strain.",
+            "Add the lavender infusion to the pitcher with lemon juice and sugar.",
+            "Add cold water and mix well.",
+            "Fill glasses with ice cubes and pour lemonade over.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Iced Raspberry Tea",
+        "image": "image/IcedRaspberryTea.jpg",
+        "Ideal Shot": ["2 black tea bags", "2 cups boiling water", "1/2 cup raspberry juice", "2 cups cold water", "Ice cubes"],
+        "Instruction": [
+            "Steep the black tea bags in boiling water for 4-5 minutes.",
+            "Remove tea bags and let the tea cool.",
+            "Add raspberry juice and mix well.",
+            "Add cold water and mix.",
+            "Fill glasses with ice cubes and pour tea over.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Iced Ginger Lemonade",
+        "image": "image/IcedGingerLemonade.jpg",
+        "Ideal Shot": ["1 cup freshly squeezed lemon juice", "1 cup sugar", "2 tablespoons grated fresh ginger", "3 cups cold water", "Ice cubes"],
+        "Instruction": [
+            "Combine lemon juice and sugar in a pitcher.",
+            "Add grated ginger and stir.",
+            "Add cold water and mix well.",
+            "Fill glasses with ice cubes and pour lemonade over.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Iced Chai Tea",
+        "image": "image/IcedChaiTea.jpg",
+        "Ideal Shot": ["2 chai tea bags", "2 cups boiling water", "1/2 cup milk", "2 cups cold water", "Ice cubes"],
+        "Instruction": [
+            "Steep the chai tea bags in boiling water for 4-5 minutes.",
+            "Remove tea bags and let the tea cool.",
+            "Add milk and mix well.",
+            "Add cold water and mix.",
+            "Fill glasses with ice cubes and pour tea over.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Iced Hibiscus Lemonade",
+        "image": "image/IcedHibiscusLemonade.jpg",
+        "Ideal Shot": ["1 cup freshly squeezed lemon juice", "1 cup sugar", "1/2 cup hibiscus tea concentrate", "3 cups cold water", "Ice cubes"],
+        "Instruction": [
+            "Combine lemon juice and sugar in a pitcher.",
+            "Add hibiscus tea concentrate and mix well.",
+            "Add cold water and mix.",
+            "Fill glasses with ice cubes and pour lemonade over.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Iced Cucumber Mint Tea",
+        "image": "image/IcedCucumberMintTea.jpg",
+        "Ideal Shot": ["2 black tea bags", "2 cups boiling water", "1/2 cucumber (sliced)", "A handful of fresh mint leaves", "2 cups cold water", "Ice cubes"],
+        "Instruction": [
+            "Steep the black tea bags in boiling water for 4-5 minutes.",
+            "Remove tea bags and let the tea cool.",
+            "Add cucumber slices and mint leaves to the pitcher.",
+            "Add cold water and mix.",
+            "Fill glasses with ice cubes and pour tea over.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Iced Coconut Tea",
+        "image": "image/IcedCoconutTea.jpg",
+        "Ideal Shot": ["2 black tea bags", "2 cups boiling water", "1/2 cup coconut milk", "2 cups cold water", "Ice cubes"],
+        "Instruction": [
+            "Steep the black tea bags in boiling water for 4-5 minutes.",
+            "Remove tea bags and let the tea cool.",
+            "Add coconut milk and mix well.",
+            "Add cold water and mix.",
+            "Fill glasses with ice cubes and pour tea over.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Iced Matcha Lemonade",
+        "image": "image/IcedMatchaLemonade.jpg",
+        "Ideal Shot": ["1 teaspoon matcha powder", "1 cup freshly squeezed lemon juice", "1 cup sugar", "3 cups cold water", "Ice cubes"],
+        "Instruction": [
+            "Mix matcha powder with a small amount of water to form a paste.",
+            "Combine lemon juice and sugar in a pitcher.",
+            "Stir until the sugar is completely dissolved.",
+            "Add cold water and mix well.",
+            "Add the matcha paste and stir.",
+            "Fill glasses with ice cubes and pour lemonade over.",
+            "Serve immediately."
+        ]
+    },
+    {
+            "id": 22,
+            "name": "Cold Brew Green Tea",
+            "image": "image/ColdBrewGreenTea.jpg",
+            "Ideal Shot": ["2 green tea bags", "4 cups cold water"],
+            "Instruction": [
+                "Combine green tea bags and cold water in a pitcher.",
+                "Steep in the refrigerator for 6-8 hours.",
+                "Remove tea bags and serve over ice.",
+                "Optional: Add honey or lemon to taste.",
+                "Serve immediately."
+            ]
+    },
+    {
+            "id": 23,
+            "name": "Cold Brew Herbal Tea",
+            "image": "image/ColdBrewHerbalTea.jpg",
+            "Ideal Shot": ["2 herbal tea bags", "4 cups cold water"],
+            "Instruction": [
+                "Combine herbal tea bags and cold water in a pitcher.",
+                "Steep in the refrigerator for 6-8 hours.",
+                "Remove tea bags and serve over ice.",
+                "Optional: Add a splash of juice or sweetener.",
+                "Serve immediately."
+            ]
+    },
+    {
+            "id": 24,
+            "name": "Cold Brew Rooibos Tea",
+            "image": "image/ColdBrewRooibosTea.jpg",
+            "Ideal Shot": ["2 rooibos tea bags", "4 cups cold water"],
+            "Instruction": [
+                "Combine rooibos tea bags and cold water in a pitcher.",
+                "Steep in the refrigerator for 6-8 hours.",
+                "Remove tea bags and serve over ice.",
+                "Optional: Add a bit of vanilla or sweetener.",
+                "Serve immediately."
+            ]
+    },
+    {
+            "id": 25,
+            "name": "Cold Brew Lemon Verbena Tea",
+            "image": "image/ColdBrewLemonVerbenaTea.jpg",
+            "Ideal Shot": ["2 lemon verbena tea bags", "4 cups cold water"],
+            "Instruction": [
+                "Combine lemon verbena tea bags and cold water in a pitcher.",
+                "Steep in the refrigerator for 6-8 hours.",
+                "Remove tea bags and serve over ice.",
+                "Optional: Add a slice of lemon or mint leaves.",
+                "Serve immediately."
+            ]
+    },
+    {
+            "id": 26,
+            "name": "Cold Brew Chamomile Tea",
+            "image": "image/ColdBrewChamomileTea.jpg",
+            "Ideal Shot": ["2 chamomile tea bags", "4 cups cold water"],
+            "Instruction": [
+                "Combine chamomile tea bags and cold water in a pitcher.",
+                "Steep in the refrigerator for 6-8 hours.",
+                "Remove tea bags and serve over ice.",
+                "Optional: Add honey or a splash of apple juice.",
+                "Serve immediately."
+            ]
+    },
+    {
+            "id": 27,
+            "name": "Cold Brew Matcha Lemonade",
+            "image": "image/ColdBrewMatchaLemonade.jpg",
+            "Ideal Shot": ["1 teaspoon matcha powder", "1 cup freshly squeezed lemon juice", "1 cup sugar", "3 cups cold water"],
+            "Instruction": [
+                "Mix matcha powder with a small amount of water to form a paste.",
+                "Combine lemon juice and sugar in a pitcher.",
+                "Stir until the sugar is completely dissolved.",
+                "Add cold water and mix well.",
+                "Add the matcha paste and stir.",
+                "Serve over ice."
+            ]
+    },
+    {
+            "id": 28,
+            "name": "Cold Brew Fruit Infusion",
+            "image": "image/ColdBrewFruitInfusion.jpg",
+            "Ideal Shot": ["4 cups cold brew green tea", "1 cup mixed fresh fruit (e.g., strawberries, oranges, lemons)"],
+            "Instruction": [
+                "Prepare cold brew green tea as per the standard method.",
+                "Add mixed fresh fruit to the cold brew tea.",
+                "Refrigerate for at least 2 hours to infuse flavors.",
+                "Serve over ice."
+            ]
+    },
+    {
+            "id": 29,
+            "name": "Cold Brew Coconut Water",
+            "image": "image/ColdBrewCoconutWater.jpg",
+            "Ideal Shot": ["2 cups coconut water", "2 cups cold water"],
+            "Instruction": [
+                "Combine coconut water and cold water in a pitcher.",
+                "Stir well and refrigerate for 6-8 hours.",
+                "Serve over ice.",
+                "Optional: Add a splash of lime juice or mint leaves."
+            ]
+    },
+    {
+            "id": 30,
+            "name": "Cold Brew Hibiscus Lemonade",
+            "image": "image/ColdBrewHibiscusLemonade.jpg",
+            "Ideal Shot": ["4 cups cold brew hibiscus tea", "1 cup freshly squeezed lemon juice", "1 cup sugar"],
+            "Instruction": [
+                "Prepare cold brew hibiscus tea as per the standard method.",
+                "Combine lemon juice and sugar in a pitcher.",
+                "Stir until the sugar is completely dissolved.",
+                "Add the cold brew hibiscus tea and mix well.",
+                "Serve over ice."
+            ]
+    },
+    {
+            "id": 31,
+            "name": "Cold Brew Peach Tea",
+            "image": "image/ColdBrewPeachTea.jpg",
+            "Ideal Shot": ["4 cups cold brew black tea", "1/2 cup peach nectar"],
+            "Instruction": [
+                "Prepare cold brew black tea as per the standard method.",
+                "Add peach nectar to the cold brew tea and stir well.",
+                "Serve over ice."
+            ]
+    },
+    {
+            "id": 32,
+            "name": "Cold Brew Apple Cinnamon Tea",
+            "image": "image/ColdBrewAppleCinnamonTea.jpg",
+            "Ideal Shot": ["4 cups cold brew black tea", "1/2 cup apple juice", "1 cinnamon stick"],
+            "Instruction": [
+                "Prepare cold brew black tea as per the standard method.",
+                "Add apple juice and a cinnamon stick to the cold brew tea.",
+                "Refrigerate for at least 2 hours.",
+                "Serve over ice."
+            ]
+    },
+    {
+            "id": 33,
+            "name": "Cold Brew Ginger Peach Tea",
+            "image": "image/ColdBrewGingerPeachTea.jpg",
+            "Ideal Shot": ["4 cups cold brew black tea", "1/2 cup peach juice", "1 tablespoon fresh grated ginger"],
+            "Instruction": [
+                "Prepare cold brew black tea as per the standard method.",
+                "Add peach juice and fresh grated ginger to the cold brew tea.",
+                "Refrigerate for at least 2 hours.",
+                "Serve over ice."
+            ]
+    },
+    {
+            "id": 34,
+            "name": "Cold Brew Chai Tea",
+            "image": "image/ColdBrewChaiTea.jpg",
+            "Ideal Shot": ["4 cups cold brew chai tea", "2 cups cold water"],
+            "Instruction": [
+                "Prepare cold brew chai tea as per the standard method.",
+                "Dilute with cold water if needed.",
+                "Serve over ice."
+            ]
+    },
+    {
+            "id": 35,
+            "name": "Cold Brew Pineapple Ginger Tea",
+            "image": "image/ColdBrewPineappleGingerTea.jpg",
+            "Ideal Shot": ["4 cups cold brew green tea", "1/2 cup pineapple juice", "1 tablespoon fresh grated ginger"],
+            "Instruction": [
+                "Prepare cold brew green tea as per the standard method.",
+                "Add pineapple juice and fresh grated ginger to the cold brew tea.",
+                "Refrigerate for at least 2 hours.",
+                "Serve over ice."
+            ]
+    },
+    {
+            "id": 36,
+            "name": "Cold Brew Cranberry Orange Tea",
+            "image": "image/ColdBrewCranberryOrangeTea.jpg",
+            "Ideal Shot": ["4 cups cold brew black tea", "1/2 cup cranberry juice", "1/4 cup orange juice"],
+            "Instruction": [
+                "Prepare cold brew black tea as per the standard method.",
+                "Add cranberry juice and orange juice to the cold brew tea.",
+                "Serve over ice."
+            ]
+    },
+    {
+            "id": 37,
+            "name": "Cold Brew Mint Lemon Tea",
+            "image": "image/ColdBrewMintLemonTea.jpg",
+            "Ideal Shot": ["4 cups cold brew green tea", "1/4 cup lemon juice", "A handful of fresh mint leaves"],
+            "Instruction": [
+                "Prepare cold brew green tea as per the standard method.",
+                "Add lemon juice and fresh mint leaves.",
+                "Refrigerate for at least 2 hours.",
+                "Serve over ice."
+            ]
+    },
+    {
+            "id": 38,
+            "name": "Cold Brew Raspberry Lemonade",
+            "image": "image/ColdBrewRaspberryLemonade.jpg",
+            "Ideal Shot": ["4 cups cold brew black tea", "1 cup raspberry juice", "1 cup freshly squeezed lemon juice"],
+            "Instruction": [
+                "Prepare cold brew black tea as per the standard method.",
+                "Combine raspberry juice and lemon juice with the cold brew tea.",
+                "Serve over ice."
+            ]
+    },
+    {
+            "id": 39,
+            "name": "Cold Brew Blueberry Mint Tea",
+            "image": "image/ColdBrewBlueberryMintTea.jpg",
+            "Ideal Shot": ["4 cups cold brew black tea", "1/2 cup blueberry juice", "A handful of fresh mint leaves"],
+            "Instruction": [
+                "Prepare cold brew black tea as per the standard method.",
+                "Add blueberry juice and fresh mint leaves.",
+                "Refrigerate for at least 2 hours.",
+                "Serve over ice."
+            ]
+    },
+    {
+            "id": 40,
+            "name": "Cold Brew Lavender Lemonade",
+            "image": "image/ColdBrewLavenderLemonade.jpg",
+            "Ideal Shot": ["4 cups cold brew black tea", "1 cup freshly squeezed lemon juice", "1/2 cup lavender syrup"],
+            "Instruction": [
+                "Prepare cold brew black tea as per the standard method.",
+                "Combine lemon juice and lavender syrup with the cold brew tea.",
+                "Serve over ice."
+            ]
+    }
+    
+]
